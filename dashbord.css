@@ -1,0 +1,1248 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75..125,300..700&display=swap');
+body{
+    font-family: "Fredoka", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    color: #eee;
+}
+aside{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    width: 20%;
+    gap: 100px;
+    background: #1b1b1b;
+    position: absolute;
+}
+aside #cancel{
+    padding: 10px;
+    display: none;
+    position: absolute;
+    top: 0;
+    color: #f8f8f8;
+    font-size: 4vw;
+}
+.health{
+    display: flex;
+    justify-content: center;
+   
+}
+.health .nn{
+    height: 20vh;
+    width: 98%;
+    background:  #0091ff;
+    border-radius: 5px;
+    margin: 15px 5px;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+.health .nn .no{
+    margin: 8px;
+}
+.health .nn i{
+    color: #111;
+    font-size: 5vw;
+    height: 80px;
+    margin: 30px;
+}
+aside .navs{
+    padding: 10px 10px;
+}
+aside .navs nav{
+    display: flex;
+    flex-direction: column;
+}
+aside .navs nav a{
+    color: #eee;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 1.2vw;
+}
+aside .navs nav span{
+    margin: 10px;
+}
+aside .navs nav span i{
+    color: #0091ff;
+    font-size: 2vw;
+}
+
+aside .navs .down{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  
+    bottom: 0;
+}
+
+main{
+    display: flex;
+    margin-left: 200px;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #1b1b1b;
+}
+main header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 600px;
+    margin-left: 100px;
+
+    top: 0;
+    position: absolute;
+}
+main header .logo{
+    display: flex;
+    justify-content: center;
+     gap: 20px;
+}
+main header .logo img{
+    mix-blend-mode: color-dodge;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    margin-left: 70px;
+}
+main header .last i{
+    font-size: 1.5vw;
+
+}
+main header .last{
+    gap: 75px;
+}
+main header .last i{
+    color: #0091ff;
+    font-size: 1.5vw;
+    margin: 3px;
+}
+#contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 90%;
+    height: 90vh;
+    background: #eee;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+#contaner #contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background: #1f1e1e;
+    height: 70vh;
+    margin-top: 80px;
+    width: 28%;
+    border-radius: 5px;
+}
+
+#contaner #contents #clear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 200px;
+}
+#contaner #contents .clr{
+    background: #31c548;;
+}
+#contaner #contents #clear i{
+    font-size: 2vw;
+    color: #0091ff;
+}
+#contaner #contents #clear1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 200px;
+}
+#contaner #contents #clear1 i{
+    font-size: 3vw;
+    color: #0091ff;
+}
+#contaner #contents #clear2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+#contaner #contents #clear2 i{
+    font-size: 2vw;
+    color: #0091ff;
+}
+#contaner #contents input{
+    padding: 5px 12px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+}
+#contaner #contents button{
+    padding: 8px 15px;
+    width: 100px;
+    background: #31c548;
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+#contaner #contents #ccc{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    padding: 50px 10px;
+    margin-left: -20px;
+    width: 150px;
+    height:350px;
+    margin-top: -20px;
+    border-radius: 8px;
+   
+}
+#contaner #ccc input[type="file"]{
+    display: none;
+}
+label{
+    display: block;
+    position: relative;
+    background-color: #0091ff;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    width: 200px;
+    padding: 10px 0;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container p{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+#images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    overflow-y: scroll;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+figure{
+    width: 150px;
+    padding: 10px;
+    margin-left: -20px;
+}
+img{
+    width: 80px;
+    
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0.5vmin;
+}
+#contaner #contents #ddd{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 30px;
+    width: 150px;
+    height:350px;
+    margin-top: -20px;
+    border-radius: 8px;
+}
+#contaner #contents #ddd ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    margin-left: -10px;
+}
+#contaner #contents #ddd ul li{
+    padding: 8px 70px;
+    margin: 5px;
+    background: #0091ff;
+    border-radius: 5px;
+    color: #f0f8ff;
+    font-size: 0.8rem;
+    list-style: none;
+}
+#contaner #contents #eee{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 30px;
+    width: 150px;
+    height:350px;
+    margin-top: -20px;
+    border-radius: 8px;
+}
+#contaner #contents #eee ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    margin-left: -10px;
+}
+#contaner #contents #eee ul li{
+    padding: 8px 70px;
+    margin: 5px;
+    background: #272829;
+    border-radius: 5px;
+    color: #f0f8ff;
+    font-size: 0.8rem;
+    list-style: none;
+}
+@media(max-width:1100px){
+    main header{
+        gap: 500px;
+    }
+    #contaner{
+        gap: 100px;
+        flex-direction: column;
+        height: 100vh;
+        overflow-y: scroll;
+        justify-content: space-between;
+    }
+  
+    #contaner #contents{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background: #1f1e1e;
+    height: 70vh;
+    margin-top: 80px;
+    width: 50%;
+    border-radius: 5px;
+    }
+    #contaner #contents #clear2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+}
+
+@media(max-width:1025px){
+    aside{
+        width: 23%;
+    }
+    main header{
+        gap: 450px;
+    }
+    #contaner{
+        gap: 100px;
+        flex-direction: column;
+        height: 100vh;
+        overflow-y: scroll;
+        margin-left: 40px;
+        justify-content: space-between;
+    }
+  
+    #contaner #contents{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background: #1f1e1e;
+    height: 70vh;
+    margin-top: 80px;
+    width: 50%;
+    border-radius: 5px;
+    }
+    #contaner #contents #clear2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+}
+
+@media(max-width:935px){
+    aside{
+        width: 23%;
+    }
+    main header{
+        gap: 350px;
+    }
+    #contaner{
+        gap: 100px;
+        flex-direction: column;
+        height: 100vh;
+        overflow-y: scroll;
+        margin-left: 40px;
+        justify-content: space-between;
+    }
+  
+    #contaner #contents{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background: #1f1e1e;
+    height: 70vh;
+    margin-top: 80px;
+    width: 50%;
+    border-radius: 5px;
+    }
+    #contaner #contents #clear2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+}
+
+
+@media(max-width:850px){
+    aside{
+        width: 26%;
+    }
+    aside .navs nav a{
+        color: #eee;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 1.8vw;
+    }
+    aside .navs nav span{
+        margin: 10px;
+    }
+    aside .navs nav span i{
+        color: #0091ff;
+        font-size: 2.5vw;
+    }
+    main header{
+        gap: 350px;
+    }
+    main header i{
+        font-size: 2vw;
+    }
+    main header .last i{
+        font-size: 2.2vw;
+    }
+    #contaner{
+        gap: 100px;
+        flex-direction: column;
+        height: 100vh;
+        overflow-y: scroll;
+        margin-left: 40px;
+        justify-content: space-between;
+    }
+  
+    #contaner #contents{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background: #1f1e1e;
+    height: 70vh;
+    margin-top: 80px;
+    width: 50%;
+    border-radius: 5px;
+    }
+    #contaner #contents #clear2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+}
+@media(max-width:791px){
+    aside{
+        width: 28%;
+    }
+    aside .navs nav a{
+        color: #eee;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 1.8vw;
+    }
+    aside .navs nav span{
+        margin: 10px;
+    }
+    aside .navs nav span i{
+        color: #0091ff;
+        font-size: 2.5vw;
+    }
+    main header{
+        gap: 300px;
+    }
+    main header i{
+        font-size: 2vw;
+    }
+    main header .last i{
+        font-size: 2.2vw;
+    }
+    #contaner{
+        gap: 100px;
+        flex-direction: column;
+        height: 100vh;
+        overflow-y: scroll;
+        margin-left: 40px;
+        justify-content: space-between;
+    }
+  
+    #contaner #contents{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background: #1f1e1e;
+    height: 120vh;
+    margin-top: 80px;
+    width: 55%;
+    border-radius: 5px;
+    }
+    #contaner #contents #clear2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+    figure{
+        width: 150px;
+        padding: 10px;
+        margin-left: -20px;
+    }
+    img{
+        width: 50px;
+        
+    }
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 0.5vmin;
+    }
+    #contaner #contents #clear i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+    #contaner #contents #clear1 i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+    #contaner #contents #clear2 i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+}
+
+@media(max-width:730px){
+    aside{
+        width: 28%;
+    }
+    aside .navs nav a{
+        color: #eee;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 1.8vw;
+    }
+    aside .navs nav span{
+        margin: 10px;
+    }
+    aside .navs nav span i{
+        color: #0091ff;
+        font-size: 2.5vw;
+    }
+    main header{
+        gap: 200px;
+    }
+    main header i{
+        font-size: 2vw;
+    }
+    main header .last i{
+        font-size: 2.2vw;
+    }
+    #contaner{
+        gap: 100px;
+        flex-direction: column;
+        height: 100vh;
+        overflow-y: scroll;
+        margin-left: 20px;
+        justify-content: space-between;
+    }
+  
+    #contaner #contents{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background: #1f1e1e;
+    height: 120vh;
+    margin-top: 80px;
+    width: 55%;
+    border-radius: 5px;
+    }
+    #contaner #contents #clear2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+    figure{
+        width: 150px;
+        padding: 10px;
+        margin-left: -20px;
+    }
+    img{
+        width: 50px;
+        
+    }
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 0.5vmin;
+    }
+    #contaner #contents #clear i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+    #contaner #contents #clear1 i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+    #contaner #contents #clear2 i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+}
+
+@media(max-width:650px){
+    aside{
+        width: 40%;
+        display: none;
+        gap: 120px;
+       z-index: 1;
+       background: #000;
+       position: fixed;
+
+    }
+    aside #cancel{
+        padding: 10px;
+        display: block;
+        position: absolute;
+        top: 0;
+        color: #f8f8f8;
+        font-size: 4vw;
+    }
+    main{
+        display: flex;
+        margin-left: 0px;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        background: #1b1b1b;
+    }
+    main header{
+        padding: 30px;
+        gap: 150px;
+    }
+    aside .navs nav a{
+        color: #eee;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 2.5vw;
+    }
+    aside .navs nav span{
+        margin: 10px;
+    }
+    aside .navs nav span i{
+        color: #0091ff;
+        font-size: 4vw;
+    }
+    main header{
+        gap: 300px;
+    }
+    main header i{
+        font-size: 4vw;
+    }
+    main header .last i{
+        font-size: 3.2vw;
+    }
+    #contaner{
+        gap: 100px;
+        flex-direction: column;
+        height: 100vh;
+        margin-top: 50px;
+        overflow-y: scroll;
+        margin-left: 35px;
+        justify-content: space-between;
+    }
+  
+    #contaner #contents{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background: #1f1e1e;
+    height: 120vh;
+    margin-top: 80px;
+    width: 55%;
+    border-radius: 5px;
+    }
+    #contaner #contents #clear2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+    figure{
+        width: 150px;
+        padding: 10px;
+        margin-left: -20px;
+    }
+    img{
+        width: 50px;
+        
+    }
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 0.5vmin;
+    }
+    #contaner #contents #clear i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+    #contaner #contents #clear1 i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+    #contaner #contents #clear2 i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+}
+@media(max-width:570px){
+    aside{
+        width: 40%;
+        display: none;
+        gap: 120px;
+       z-index: 1;
+       background: #000;
+       position: fixed;
+
+    }
+    aside #cancel{
+        padding: 10px;
+        display: block;
+        position: absolute;
+        top: 0;
+        color: #f8f8f8;
+        font-size: 4vw;
+    }
+    main{
+        display: flex;
+        margin-left: 0px;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        background: #1b1b1b;
+    }
+    main header{
+        padding: 30px;
+        gap: 80px;
+        margin-left: 50px;
+    }
+    aside .navs nav a{
+        color: #eee;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 2.5vw;
+    }
+    aside .navs nav span{
+        margin: 10px;
+    }
+    aside .navs nav span i{
+        color: #0091ff;
+        font-size: 4vw;
+    }
+    main header{
+        gap: 300px;
+    }
+    main header i{
+        font-size: 4vw;
+    }
+    main header .last i{
+        font-size: 3.2vw;
+    }
+    #contaner{
+        gap: 100px;
+        flex-direction: column;
+        height: 100vh;
+        margin-top: 50px;
+        overflow-y: scroll;
+        margin-left: 35px;
+        justify-content: space-between;
+    }
+  
+    #contaner #contents{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background: #1f1e1e;
+    height: 120vh;
+    margin-top: 80px;
+    width: 60%;
+    border-radius: 5px;
+    }
+    #contaner #contents input{
+        width: 180px;
+    }
+    #contaner #contents #clear2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+    figure{
+        width: 150px;
+        padding: 10px;
+        margin-left: -20px;
+    }
+    img{
+        width: 50px;
+        
+    }
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 0.5vmin;
+    }
+    label{
+        width: 130px;
+        font-size: 14px;
+    }
+    #contaner #contents #clear i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+    #contaner #contents #clear1 i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+    #contaner #contents #clear2 i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+}
+
+@media(max-width:510px){
+    aside{
+        width: 45%;
+        display: none;
+        gap: 120px;
+       z-index: 1;
+       background: #000;
+       position: fixed;
+
+    }
+    aside #cancel{
+        padding: 10px;
+        display: block;
+        position: absolute;
+        top: 0;
+        color: #f8f8f8;
+        font-size: 4vw;
+    }
+    main{
+        display: flex;
+        margin-left: -15px;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        background: #1b1b1b;
+    }
+    main header{
+        padding: 30px;
+        gap: 20px;
+        margin-left: 50px;
+    }
+    main header .last{
+        margin-left: -40px;
+    }
+    aside .navs nav a{
+        color: #eee;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 2.5vw;
+    }
+    aside .navs nav span{
+        margin: 10px;
+    }
+    aside .navs nav span i{
+        color: #0091ff;
+        font-size: 4vw;
+    }
+    main header{
+        gap: 300px;
+    }
+    main header i{
+        font-size: 4vw;
+    }
+    main header .last i{
+        font-size: 3.2vw;
+    }
+}
+
+@media(max-width:450px){
+    aside{
+        width: 48%;
+        display: none;
+        gap: 120px;
+       z-index: 1;
+       background: #000;
+       position: fixed;
+
+    }
+    aside #cancel{
+        padding: 10px;
+        display: block;
+        position: absolute;
+        top: 0;
+        color: #f8f8f8;
+        font-size: 4vw;
+    }
+    main{
+        display: flex;
+        margin-left:-25px;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        background: #1b1b1b;
+    }
+    main header{
+        padding: 30px;
+        gap: 80px;
+        margin-left: 50px;
+    }
+    main header .last{
+        margin-left: -110px;
+    }
+    aside .navs nav a{
+        color: #eee;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 4vw;
+    }
+    aside .navs nav span{
+        margin: 10px;
+    }
+    aside .navs nav span i{
+        color: #0091ff;
+        font-size: 6vw;
+    }
+    main header{
+        gap: 300px;
+    }
+    main header i{
+        font-size: 6vw;
+    }
+    main header .last i{
+        font-size: 4.2vw;
+    }
+    #contaner{
+        gap: 100px;
+        flex-direction: column;
+        height: 100vh;
+        margin-top: 50px;
+        overflow-y: scroll;
+        margin-left: 35px;
+        justify-content: space-between;
+    }
+  
+    #contaner #contents{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background: #1f1e1e;
+    height: 120vh;
+    margin-top: 80px;
+    width: 65%;
+    border-radius: 5px;
+    }
+    #contaner #contents input{
+        width: 100px;
+    }
+    #contaner #contents #clear2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+    figure{
+        width: 150px;
+        padding: 10px;
+        margin-left: -20px;
+    }
+    img{
+        width: 50px;
+        
+    }
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 0.5vmin;
+    }
+    label{
+        width: 130px;
+        font-size: 14px;
+    }
+    #contaner #contents #clear i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+    #contaner #contents #clear1 i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+    #contaner #contents #clear2 i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+}
+
+
+@media(max-width:390px){
+    aside{
+        width: 60%;
+        display: none;
+        gap: 120px;
+       z-index: 1;
+       background: #000;
+       position: fixed;
+
+    }
+    aside #cancel{
+        padding: 10px;
+        display: block;
+        position: absolute;
+        top: 0;
+        color: #f8f8f8;
+        font-size: 4vw;
+    }
+    main{
+        display: flex;
+        margin-left:-30px;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        background: #1b1b1b;
+    }
+    main header{
+        padding: 30px;
+        gap: 80px;
+        margin-left: 50px;
+    }
+    main header .last{
+        margin-left: -140px;
+    }
+    aside .navs nav a{
+        color: #eee;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 3.5vw;
+    }
+    aside .navs nav span{
+        margin: 10px;
+    }
+    aside .navs nav span i{
+        color: #0091ff;
+        font-size: 6vw;
+    }
+    main header{
+        gap: 300px;
+    }
+    main header i{
+        font-size: 6vw;
+    }
+    main header .last i{
+        font-size: 4.2vw;
+    }
+    #contaner{
+        gap: 100px;
+        flex-direction: column;
+        height: 100vh;
+        margin-top: 50px;
+        overflow-y: scroll;
+        margin-left: 35px;
+        justify-content: space-between;
+    }
+  
+    #contaner #contents{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background: #1f1e1e;
+    height: 120vh;
+    margin-top: 80px;
+    width: 65%;
+    border-radius: 5px;
+    }
+    #contaner #contents input{
+        width: 100px;
+    }
+    #contaner #contents #clear2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+    figure{
+        width: 150px;
+        padding: 10px;
+        margin-left: -20px;
+    }
+    img{
+        width: 50px;
+        
+    }
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 0.5vmin;
+    }
+    label{
+        width: 130px;
+        font-size: 14px;
+    }
+    #contaner #contents #clear i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+    #contaner #contents #clear1 i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+    #contaner #contents #clear2 i{
+        font-size: 5vw;
+        color: #0091ff;
+    }
+}
+
+@media(max-width:360px){
+    aside{
+        width: 60%;
+        display: none;
+        gap: 120px;
+       z-index: 1;
+       background: #000;
+       position: fixed;
+
+    }
+    aside #cancel{
+        padding: 10px;
+        display: block;
+        position: absolute;
+        top: 0;
+        color: #f8f8f8;
+        font-size: 4vw;
+    }
+    main{
+        display: flex;
+        margin-left:-31px;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        background: #1b1b1b;
+    }
+    main header{
+        padding: 30px;
+        gap: 80px;
+        margin-left: 50px;
+    }
+    main header .last{
+        margin-left: -170px;
+    }
+    aside .navs nav a{
+        color: #eee;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 3.2vw;
+    }
+    aside .navs nav span{
+        margin: 10px;
+    }
+    aside .navs nav span i{
+        color: #0091ff;
+        font-size: 5.5vw;
+    }
+    main header{
+        gap: 300px;
+    }
+    main header i{
+        font-size: 6vw;
+    }
+    main header .last i{
+        font-size: 4.2vw;
+    }
+}

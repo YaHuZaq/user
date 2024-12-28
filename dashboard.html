@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="icon" type="png" href="privacy.jpg">
+    <link rel="stylesheet" href="dashbord.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <aside id="acide">
+        <i class="ri-close-large-line" id="cancel" onclick="hideS()"></i>
+        <div class="health">
+            <div class="nn">
+                <i class="ri-admin-line"></i>
+                <div class="no">
+                <h5>Yahuza Usman</h5>
+                <small>Admin</small>
+                </div>
+            </div>
+        </div>
+        <div class="navs">
+            <nav>
+                <span><i class="ri-home-2-line"></i> <a href="">Dashboard</a></span>
+                <span><i class="ri-user-line"></i> <a href="">User</a></span>
+                <span><i class="ri-settings-line"></i> <a href="">Settings</a></span>
+                <span><i class="ri-information-line"></i> <a href="">Information</a></span>
+                <div class="down">
+                    <span><i class="ri-question-line"></i> <a href="">Help</a></span>
+                    <span><i class="ri-logout-circle-r-line"></i> <a href="index.html">Logout</a></span>
+                </div>
+            </nav>
+        </div>
+    </aside>
+    <main>
+        <header>
+           
+            <div class="logo">
+                <i class="ri-menu-line" onclick="ShowS()"></i>
+                <img src="logo1.jpg" class="logo">
+            </div>
+
+            <div class="last">
+                <i class="ri-search-line"></i>
+                <i class="ri-download-line"></i>
+                <i class="ri-notification-line"></i>
+            </div>
+        </header>
+        <br>
+
+    <div id="contaner">
+        <div id="contents">
+            <div id="clear">
+                <p>Hide Files</p>
+
+
+                <i class="ri-add-circle-fill" onclick="Best()"></i>
+            </div>
+
+            <div id="ccc">
+                <h3>See Your Files</h3>
+                <input type="file" id="file-input" accept="image/png, image/jpeg, .doc, .mp4" onchange="preview()" multiple >
+                <label for="file-input">
+                    <i class="fas fa-upload"></i> &nbsp; Choose A Files
+                </label>
+                <p id="num-of-files" style="display: none;">No Files Chosen</p>
+                <div id="images"></div>
+            </div>
+        </div>
+        <div id="contents">
+            <div id="clear1">
+                <p>Create note</p>
+
+
+                <i class="ri-add-circle-fill" onclick="Best1()"></i>
+            </div>    
+                <div id="ddd">
+                    <h3>Notes</h3>
+                    <input type="text" placeholder="Notes" id="first">
+                    <button class="btn" onclick="addWork()">Add</button>
+                    <ul id="all-list" style="color: aliceblue;">
+            
+                    </ul>
+                    <p id="kall" style="display: none; text-align: center; background: red; padding: 10px;">Write pls</p>
+                </div>
+            
+        </div>
+        <div id="contents">
+            <div id="clear2">
+                <p>Hide Passwords</p>
+
+
+                <i class="ri-add-circle-fill" onclick="Best2()"></i>
+            </div>
+
+            <div id="eee">
+                <h3>Your hidden Passwords</h3>
+                <input type="text" placeholder="Write and id No"  id="second">
+                <button onclick="pass()">Add</button>
+                <ul id="all-list1" style="color: aliceblue;">
+            
+                </ul>
+                <p id="kall1" style="display: none; text-align: center; background: red; padding: 10px;">Write pls</p>
+            </div>
+        
+        </div>
+    </div>
+   </main>
+
+   <script src="text.js"></script>
+</body>
+</html>
